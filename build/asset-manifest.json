@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tp-tres-teco/build/static/css/main.51853c7e.css",
+    "main.js": "/tp-tres-teco/build/static/js/main.07b08e26.js",
+    "index.html": "/tp-tres-teco/build/index.html",
+    "main.51853c7e.css.map": "/tp-tres-teco/build/static/css/main.51853c7e.css.map",
+    "main.07b08e26.js.map": "/tp-tres-teco/build/static/js/main.07b08e26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51853c7e.css",
+    "static/js/main.07b08e26.js"
+  ]
+}
