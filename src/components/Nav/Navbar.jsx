@@ -6,18 +6,17 @@ function Navbar() {
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
-    //cuando esta true lo pasa a false y vice versa
+    
     setClicked(!clicked)
   }
   return (
     <>
       <NavContainer>
-        <h2>Navbar <span>Matute</span></h2>
+        <h2>Digitallers </h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="#h">Home</a>
+          <a onClick={handleClick} href="#h">Inicio</a>
           <a onClick={handleClick} href="#h">nosotros</a>
-          <a onClick={handleClick} href="#h">internet</a>
-          <a onClick={handleClick} href="#h">Contact</a>
+          <a onClick={handleClick} href="#h">Comentarios</a>
           <a onClick={handleClick} href="#h">redes</a>
         </div>
         <div className='burguer'>
@@ -32,6 +31,22 @@ function Navbar() {
 export default Navbar
 
 const NavContainer = styled.nav`
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; 
+  padding: 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+
+  &:hover {
+    background-color: #555; 
+  }
+}
+
   h2{
     color: white;
     font-weight: 400;
@@ -92,6 +107,7 @@ const NavContainer = styled.nav`
   }
   .burguer{
     @media(min-width: 768px){
+      display:none
       
     }
   }

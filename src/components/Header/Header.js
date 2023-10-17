@@ -15,7 +15,7 @@ const Header = () => {
                         <h1>{h1}</h1>
                     </div>
 
-                    <article id="noticia_1">
+                    <article >
                         <header>
                             <h3>{noticiaUno}</h3>
                         </header>
@@ -25,7 +25,7 @@ const Header = () => {
                         </p>
 
                     </article>
-                    <article class="noticia" id="noticia_2">
+                    <article >
                         <header>
                             <h3>{noticiaDos}</h3>
                         </header>
@@ -33,7 +33,7 @@ const Header = () => {
                         </p>
 
                     </article>
-                    <article class="noticia" id="noticia_3">
+                    <article >
                         <header>
                             <h3>{noticiaTres}</h3>
                         </header>

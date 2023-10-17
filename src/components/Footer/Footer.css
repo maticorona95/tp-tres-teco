@@ -1,0 +1,41 @@
+.pie-pagina {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+  }
+  
+  .grupo-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+  
+  .box {
+    flex: 0 1 30%; 
+    margin-bottom: 20px; 
+  }
+  
+  .red-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .grupo-2 {
+    text-align: center;
+    margin-top: 20px; 
+  }
+
+  .red-social {
+    display: flex;
+    gap: 10px; /* Espaciado entre los iconos */
+  }
+  
+  .red-social a {
+    font-size: 30px; /* Tamaño de los iconos */
+    color: #ffffff; /* Color de los iconos */
+    text-decoration: none;
+  }
+  
+  .red-social a:hover {
+    color: #aaaaaa; /* Color de los iconos al pasar el ratón */
+  }
