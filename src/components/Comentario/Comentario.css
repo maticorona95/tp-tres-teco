@@ -4,12 +4,13 @@
     -webkit-box-shadow: 13px -19px 0px 0px rgba(22, 45, 180, 0.37);
     -moz-box-shadow: 13px -19px 0px 0px rgba(16, 39, 168, 0.37);
     border-radius: 25px;
-    width: 100%;
+    width: 97%;
     padding: 10px;
-    height: 600px;
+    height: 550px;
     justify-content: center;  
     align-items: center;
     margin-bottom: 80px;
+    
     
 
 }
@@ -27,8 +28,9 @@
     padding: 20px;
     border: 1px solid #ddd; /* Agrega un borde para separar visualmente */
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color:rgba(29, 6, 160, 0.37);
     margin-top: 40px;
+    border-radius: 30px;
   }
   
   .noticia h1 {
@@ -44,6 +46,7 @@
     padding: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
+    border-radius: 10px;
   }
   
   .btn-agre {
@@ -53,6 +56,7 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
   }
   
 

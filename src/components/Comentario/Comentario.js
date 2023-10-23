@@ -54,8 +54,8 @@ const Comentario = () => {
       let imagen = document.createElement('img');
       imagen.src = dato.imagen || "";
       imagen.className = 'imagen-comentario';
-      imagen.style.width = '50px';
-      imagen.style.height = '50px';
+      imagen.style.width = '90px';
+      imagen.style.height = '90px';
       elementoDiv.appendChild(imagen);
 
       let nombreParrafo = document.createElement('p');
