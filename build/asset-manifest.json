@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tp-tres-teco/build/static/css/main.706535da.css",
-    "main.js": "/tp-tres-teco/build/static/js/main.7242d380.js",
+    "main.css": "/tp-tres-teco/build/static/css/main.d190ba4d.css",
+    "main.js": "/tp-tres-teco/build/static/js/main.d491f5e6.js",
     "static/media/innovacion-tecnologica.jpg": "/tp-tres-teco/build/static/media/innovacion-tecnologica.7d3f304ff8bbb7fdcd38.jpg",
     "static/media/milhouse.jpg": "/tp-tres-teco/build/static/media/milhouse.ebdcdad1f92b1e89743f.jpg",
     "static/media/lisa.jpg": "/tp-tres-teco/build/static/media/lisa.71135d8b61e32a87f408.jpg",
     "static/media/marge.jpg": "/tp-tres-teco/build/static/media/marge.91cd11822dd024561fef.jpg",
     "static/media/icons8-logo.svg": "/tp-tres-teco/build/static/media/icons8-logo.74747619c4656543183958db2a14c3cb.svg",
     "index.html": "/tp-tres-teco/build/index.html",
-    "main.706535da.css.map": "/tp-tres-teco/build/static/css/main.706535da.css.map",
-    "main.7242d380.js.map": "/tp-tres-teco/build/static/js/main.7242d380.js.map"
+    "main.d190ba4d.css.map": "/tp-tres-teco/build/static/css/main.d190ba4d.css.map",
+    "main.d491f5e6.js.map": "/tp-tres-teco/build/static/js/main.d491f5e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.706535da.css",
-    "static/js/main.7242d380.js"
+    "static/css/main.d190ba4d.css",
+    "static/js/main.d491f5e6.js"
   ]
 }
