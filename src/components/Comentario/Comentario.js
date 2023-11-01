@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
-import hombre from '../../img/hombre.png';
-import mujer from '../../img/mujer-de-negocios.png';
-import avatar from '../../img/avatar-de-hombre.png';
-import Noregistrado from '../../img/no-registrado.png';
-import '../Comentario/Comentario.css';  // Asegúrate de tener el archivo Comentario.css en la misma carpeta que este componente
+import hombre from '../../img/bart.jpg';
+import mujer from '../../img/marge.jpg';
+import avatar from '../../img/lisa.jpg';
+import Noregistrado from '../../img/homero.jpg';
+import Milhouse from '../../img/milhouse.jpg'
+import '../Comentario/Comentario.css'; 
 
 const Comentario = () => {
   const [datos, setDatos] = useState([
@@ -20,7 +21,7 @@ const Comentario = () => {
   const agregarElemento = () => {
     let dato = document.getElementById('texto').value.trim();
     if (dato !== '' && datos.length <= 3) {
-      setDatos(prevDatos => [...prevDatos, { id: prevDatos.length + 1, nombre: dato, autor: "Usuario", imagen: avatar, done: false }]);
+      setDatos(prevDatos => [...prevDatos, { id: prevDatos.length + 1, nombre: dato, autor: "Usuario", imagen: Milhouse, done: false }]);
       document.getElementById('texto').value = '';
     } else if (datos.length > 3) {
       Swal.fire('No se puede agregar más de un comentario.');

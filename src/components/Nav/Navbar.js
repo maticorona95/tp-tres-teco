@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importa Link
 import '../Nav/Navbar.css';
 
-
-const Navbar = () => {
+function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -13,10 +13,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">DG</div>
       <div className={`menu ${showMenu ? 'active' : ''}`}>
-        <a href="#">Inicio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Contacto</a>
+        <Link to="/">Inicio</Link>
+        <Link to="/imagen-tecnologica">Imagen Tecnológica</Link>
+        <Link to="/comment-box">Comment Box</Link>
+        <Link to="/comentario">Comentario</Link>
+        <Link to="/footer">Footer</Link>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
         <div className={`bar ${showMenu ? 'open' : ''}`}></div>
@@ -25,6 +26,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
+
